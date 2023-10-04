@@ -1,0 +1,89 @@
+/**
+ * Copyright 2021 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 8px;
+}
+
+div.scroller {
+  margin:5px;
+  padding:5px;
+  background-color: rgb(94, 163, 186);
+  width: 540px;
+  height: 310px;
+  overflow: scroll;
+  text-align:"center";
+}
+
+/* <style> */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: cornsilk;
+  }
+  th, td {
+    border: 1px solid #dddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+/* </style> */
+
+button {
+  /* background-color: #4CAF50; */
+  /* color: white; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin: auto;
+  border: none;
+  /* color: white; */
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}.subscription-info {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
