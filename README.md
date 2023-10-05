@@ -1,3 +1,8 @@
+## Project understanding
+- This is a data science solution to identify target audience for product marketing, based on open source social media data
+- A fully automated end-to-end solution built using python flask, hosted in Azure cloud infrastructure
+- Project stages include data source connectivity, data collation, data aggregation, similar audience identification, sentiment analysis, text analysis, performance analysis and app development
+
 ## To start Project locally
 - Run `create_ptable.py` to create two tables.
 - Install the dependencies listed in `requirements.txt` via the command: `pip install -r requirements.txt`.
